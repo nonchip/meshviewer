@@ -111,7 +111,7 @@ function showDistance(d) {
 }
 
 function showTq(d) {
-  return numeral(1/d.tq).format("0%")
+  return numeral(d.tq).format("0%")
 }
 
 /* Infobox stuff (XXX: move to module) */
